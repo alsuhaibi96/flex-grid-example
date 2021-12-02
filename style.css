@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   background-color:  #eee2d6;
+}
+.main-ul{
+    padding-right: 20px;
+    display: flex;
+   justify-content: end;
+    flex-direction: row;
+    list-style: none;
+}
+.first-item{
+position: absolute;
+top: 0px;
+left: 20px;
+
+margin:5px;
+}
+.Abdulrahman{
+    font-size: 40px;
+    font-weight: bolder;
+}
+a:hover{
+cursor: pointer;
+}
+li{
+    margin: 20px;
+    font-weight: 900;
+}
+.first-top-content{
+    max-height: 300px;
+
+   display: grid;
+   grid-template-columns: 200px 180px 190px ;
+   grid-gap: 10px;
+   padding: 50px 30px 30px 0;
+}
+.plant{
+    grid-area: 10 / 1 /40 / 3;
+    background-color: #faca97;
+    margin-right: 100px;
+}
+.text-content{
+    background-color: white;
+    grid-area: 4 / 2 / 30 / 4;
+    padding: 30px;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.img-personal{
+    float: right;
+}
+.photo{
+    grid-area: 1 / 3 / 35 / 8;
+    background-color: #f4ab9c;
+}
+.img-plant{
+position: relative;
+width: 60%;
+height: 100%;
+}
+button{
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 12px;
+}
+
